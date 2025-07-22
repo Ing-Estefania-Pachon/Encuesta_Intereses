@@ -1,0 +1,15 @@
+{
+  "name": "encuesta_intereses",
+  "version": "1.0.0",
+  "description": "Este ejercicio consiste en una encuesta interactiva que permite a los usuarios votar entre tres temas: **Diseño Web**, **JavaScript** y **Bases de Datos**.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

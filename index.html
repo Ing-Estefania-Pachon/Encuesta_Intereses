@@ -7,9 +7,29 @@
     <title>Encuesta_De_Intereses</title>
 </head>
 <body>
+    <h1>🎉 ¡Ayúdanos a descubrir qué te apasiona más!</h1>
+
+        <div class="introduccion">
+        <p>🧠 ¿Eres fan del <strong>Diseño Web</strong>, te encanta romper cosas con <strong>JavaScript</strong>,
+        o prefieres sumergirte en los misterios de las <strong>Bases de Datos</strong>?</p>
+        <p>👉 Haz clic en tu opción favorita y forma parte de esta épica batalla de intereses tecnológicos.<br>
+        Cada voto cuenta… ¡y sí, también nos hace sonreír! 😄</p>
+        <blockquote>🗳️ ¡Vota ya y sé parte de la revolución geek!</blockquote>
+
+    </div>
+
+    <div class="votacion">
+        <button onclick="votar('JavaScript')">JavaScript</button>
+        <button onclick="votar('DiseñoWeb')">Diseño Web</button>
+        <button onclick="votar('BaseDatos')">Base de Datos</button>
+    </div> 
     
-
-
+    <div class="resultados">
+        <h2>📊 Resultados en tiempo real:</h2>
+        <p>JavaScript: <span id="votos-js">0</span></p>
+        <p>Diseño Web: <span id="votos-dw">0</span></p>
+        <p>Base de Datos: <span id="votos-bd">0</span></p>
+    </div>
 
     <script src="script.js"></script>
 </body>

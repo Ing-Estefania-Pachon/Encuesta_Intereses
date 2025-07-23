@@ -15,5 +15,7 @@ function votar(click){
     document.getElementById("votos-js").textContent = votos.JavaScript;
     document.getElementById("votos-dw").textContent = votos.DiseñoWeb;
     document.getElementById("votos-bd").textContent = votos.BaseDatos;
-  
+    
+    console.log(votos);
+
 }
